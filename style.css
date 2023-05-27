@@ -108,7 +108,9 @@ a{
     .homepage {
         gap: 15px;
     }
-    
+    .pinthis {
+        order: -1;
+    }
     #footer {
         padding-top: 70%;
     }
