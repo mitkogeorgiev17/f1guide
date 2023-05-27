@@ -58,31 +58,33 @@ a{
     display: grid;
     height: 100vh;
     grid-template-columns: 600px 600px;
-    grid-template-rows: 320px 320px;
-    gap: 25px;
+    grid-template-rows: 370px 320px;
+    gap: 35px;
     padding: 15px;
     padding-top: 250px;
 }
 .pic1 {
     width: 600px;
-    height: 320px;
+    height: 370px;
     float:left;
     border-radius: 10px;
-}
-.p1 {
-    margin-top: 0;
-    font-size: 19px;
-    text-align: justify;
-}
-.p2 {
-    margin-top: 0;
-    font-size: 19px;
-    text-align: justify;
+    filter: drop-shadow(0px 0px 8px #000000);
 }
 .pic2 {
     width: 600px;
     float:right;
     border-radius: 10px;
+    filter: drop-shadow(0px 0px 8px #000000);
+}
+.p1 {
+    margin-top: 0;
+    font-size: 21px;
+    text-align: justify;
+}
+.p2 {
+    margin-top: 0;
+    font-size: 21px;
+    text-align: justify;
 }
 
 .redline {
