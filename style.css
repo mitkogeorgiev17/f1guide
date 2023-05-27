@@ -1,0 +1,101 @@
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+}
+.menu {
+    position: fixed;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 200px;
+    align-items: center;
+    width:100%;
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    color: aliceblue;
+    z-index:1000;
+}
+
+.leftmenu > a{
+    display: flex;
+    align-items: center;
+    color:aliceblue;
+    padding-left: 15px;
+    justify-content: center;
+}
+
+.logo {
+    width: 70px;
+    height: 25px;
+    display: inline;
+}
+
+.rightmenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    padding: 24px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: aliceblue;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.homepage {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 320px 320px;
+    gap: 25px;
+    padding: 15px;
+    padding-top: 250px;
+}
+.pic1 {
+    width: 600px;
+    height: 320px;
+    float:left;
+    border-radius: 10px;
+}
+.p1 {
+    margin-top: 0;
+    font-size: 19px;
+    text-align: justify;
+}
+.p2 {
+    margin-top: 0;
+    font-size: 19px;
+    text-align: justify;
+}
+.pic2 {
+    width: 600px;
+    float:right;
+    border-radius: 10px;
+}
+
+.redline {
+    width: 100%;
+    height: 5px;
+    background-color: red;
+    padding: 0;
+    margin: 0;
+
+}
+
+footer {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
