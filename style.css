@@ -100,7 +100,7 @@ a{
     .homepage {
         display: flex;
         flex-direction: column;
-        flex-basis: 400px;
+        flex-basis: 350px;
         align-items: center;
         justify-content: center;
         padding-top: 650px;
@@ -110,6 +110,12 @@ a{
     }
     .pinthis {
         order: -1;
+    }
+    .homepage > div {
+        flex:auto
+    }
+    .homepage > img {
+        width: 200px;
     }
     #footer {
         padding-top: 70%;
