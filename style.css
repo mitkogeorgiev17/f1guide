@@ -5,3 +5,20 @@
 .header-container {
     background-color: black;
 }
+
+.paint-it-black {
+    background-color: black;
+}
+
+.indeximg {
+    border-radius: 5px;
+    filter: drop-shadow(0 0 0.25rem black);
+}
+
+.gallery {
+    text-align: center;
+}
+
+.d-block {
+    border-radius: 7px;
+}
