@@ -22,3 +22,67 @@
 .d-block {
     border-radius: 7px;
 }
+
+#team-card {
+    background-color: gainsboro;
+}
+
+.rb-card {
+    background-color: #3671c6;
+    color:white;
+    font-size: 24px;;
+}
+
+.amr-card {
+    background-color: #388c74;
+    color: white;
+    font-size: 24px;
+}
+
+.merc-card {
+    background-color: #70d4bc;
+    color: white;
+    font-size: 24px;
+}
+
+.fer-card {
+    background-color: #ff1434;
+    color: white;
+    font-size: 24px;
+}
+
+.alp-card {
+    background-color: #2894d4;
+    color: white;
+    font-size: 24px;
+}
+
+.mcl-card {
+    background-color: #f88424;
+    color: white;
+    font-size: 24px;
+}
+
+.haas-card {
+    background-color: #b8bcbc;
+    color: white;
+    font-size: 24px;
+}
+
+.alfa-card {
+    background-color: #d02c4c;
+    color: white;
+    font-size: 24px;
+}
+
+.alpha-card {
+    background-color: #0c2c44;
+    color: white;
+    font-size: 24px;
+}
+
+.wil-card {
+    background-color: #38bcdc;
+    color: white;
+    font-size: 24px;
+}
