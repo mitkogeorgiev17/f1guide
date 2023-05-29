@@ -24,7 +24,9 @@
 }
 
 #team-card {
-    background-color: gainsboro;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    border-radius: 2px;
 }
 
 .rb-card {
