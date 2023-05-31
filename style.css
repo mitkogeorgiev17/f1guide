@@ -88,3 +88,57 @@
     color: white;
     font-size: 24px;
 }
+
+/* F1 */
+
+.f1p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+div {
+    display: block;
+}
+
+#reaction {
+    font-size: 32px;
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.f1-lights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    gap:10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.lightstrip {
+    position: relative;
+    background-color: rgb(10, 10, 10);
+    height: 450px;
+    width: 120px;
+    border-radius: 15px;;
+}
+
+.backstrip {
+    background-color: rgb(10, 10, 10);
+    position: absolute;
+    left: 37%;
+    right: 37%;
+    top: 172%;
+    height: 7%;
+    transform: translateY(-50%);
+}
+
+.f1light {
+    background-color: rgb(41, 41, 41);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
