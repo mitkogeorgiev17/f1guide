@@ -52,7 +52,7 @@ $(".click-area").click(function(){
         const score = (Date.now() - startTime) / 1000;
         
         waitingForClick = false;
-        $(".display-text").html("Your time was " + score + " ms. Click to play again.");
+        $(".display-text").html("Your time was " + score + " ms. Click to play again. 🤓");
 
         addScore(score);
     } else {
