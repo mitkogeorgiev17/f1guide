@@ -91,33 +91,44 @@
 
 /* F1 */
 
-.f1p {
-    font-size: 18px;
-    font-weight: 600;
-}
-
-div {
-    display: block;
-}
-
-#reaction {
+.display-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
     font-size: 32px;
     color: black;
-    font-family: sans-serif;
-    text-align: center;
+    background-color: #eeeeee;
+    border-radius: 5px;
 }
 
-.f1-lights{
+.recent-scores {
+    font-size: 32px;
+    color:black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.score {
+    flex-grow: 1;
+    padding: 8px;
+}
+
+.score:nth-child(odd) {
+    background: #eeeeee;
+}
+
+.click-area{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 65vh;
+    height: 55vh;
     gap:10px;
-    padding-bottom: 0;
-    margin-bottom: 0;
+    cursor: pointer;
 }
 
-.lightstrip {
+.f1-lightstrip {
     position: relative;
     background-color: rgb(10, 10, 10);
     height: 450px;
@@ -125,20 +136,24 @@ div {
     border-radius: 15px;;
 }
 
-.backstrip {
+.f1-backstrip {
     background-color: rgb(10, 10, 10);
     position: absolute;
     left: 37%;
     right: 37%;
-    top: 172%;
+    top: 182%;
     height: 7%;
     transform: translateY(-50%);
 }
 
-.f1light {
+.f1-light {
     background-color: rgb(41, 41, 41);
     border-radius: 50%;
     width: 100px;
     height: 100px;
     margin: 10px;
+}
+
+.light-on {
+    background-color: red;
 }
